@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px de largura */
+    /* Adicione suas regras CSS aqui */
+}
+
+body {
+    background-color: #102631;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 60px;
+}
+
+.heather {
+    background-color: #102631;
+}
+
+.icon-menu {
+    background-color: #ED7041;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.menu>a {
+    margin-right: 40px;
+}
+
+.entrar {
+    border: 1px solid #ED7041;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.entrar:hover {
+    border: 1px solid #ED7041;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    background-color: #ED7041;
+    transition-duration: 300ms;
+}
+
+/*Botões dentro do login*/
+.borda-logs {
+    border: 1px solid #ED7041;
+}
+.bordNone-c {
+    border-top: none;
+}
+.bordNone-l {
+    border-bottom: none;
+}
+/*Botões dentro do login*/
+
+.fotoCard {
+    width: 200px;
+    /* Manter a largura igual */
+    height: 200px;
+    /* Definir uma altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Manter a proporção da imagem e preencher o espaço */
+    border-radius: 50%;
+}
+
+.card {
+    background-color: #BBD3E2;
+    border-radius: 40px;
+}
+
+.promocaoText {
+    color: #ED7041;
+}
+
+button {
+    background-color: #ED7041;
+    border: 0;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.cardapio-inicio {
+    margin-top: 100px;
+}
+
+.img-cardapio-inicio {
+    margin-right:;
+}
+
+.text-cardapio-inicio {
+    color: #ED7041;
+}
+
+footer {
+    background-color: #102631;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer>.whatSap {
+    color: white;
+    background-color: green;
+    font-size: 100%;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}

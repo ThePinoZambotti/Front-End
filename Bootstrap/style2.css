@@ -1,0 +1,34 @@
+* {
+    background: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 576px) {
+    .Imagem {
+        background-image: url(https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/07/solo.png);
+    }
+}
+
+@media (min-width: 768px) {
+    .Imagem {
+        background-image: url(https://zonacritica.com.br/wp-content/uploads/2022/06/sukuna-800x400.jpg.webp);
+    }
+}
+
+@media (min-width: 992px) {
+    .Imagem {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8D3cAjdHFzOLeeoT8QLc4YOIDBcJM3sabqJr-QA3eNJk2vqIfyCPW8IBk6Q98FHthWjw&usqp=CAU);
+    }
+}
+
+@media (min-width: 1200px) {
+    .Imagem {
+        background-image: url(https://staticg.sportskeeda.com/editor/2023/04/a9679-16828647913904-1920.jpg?w=840);
+    }
+}
+
+@media (min-width: 1400px) {
+    .Imagem {
+        background-image: url(https://images7.alphacoders.com/303/303042.png);
+    }
+}

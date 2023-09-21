@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Quintanda</title>
+
+    <link rel="stylesheet" href="ex007.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                Quitanda Online
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse justify-content-between" id="menuNavBar">
+                <div class="navbar-nav">
+
+                    <a href="ex007.html" class="nav-link">Principal</a>
+                    <a href="#" class="nav-link">Contato</a>
+
+                </div>
+
+                <div class="navbar-nav">
+
+                    <a href="ex002.html" class="nav-link">Cadastrar</a>
+                    <a href="ex001.html" class="nav-link">Entrar</a>
+
+                </div>
+            </div>
+    </nav>
+
+    <main>
+
+
+        <section id="meucarrossel" class="carousel carousel-dark slide container mt-3" data-bs-ride="carousel">
+
+
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="3"></button>
+
+            </div>
+
+
+            <div class="carousel-inner">
+
+
+                <div class="carousel-item active" data-bs-interval="1000">
+
+                    <img src="https://images.pexels.com/photos/1153655/pexels-photo-1153655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100 d-block banner">
+                    <div class="carousel-caption align-items-center">
+                        <button class="bg-black text-white">BLACK FRIDAY!</button>
+                        <h1 class="text-white">FRETE GRÁTIS</h1>
+                        <p class="text-white">AS MELHORES OFERTAS</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="https://images.pexels.com/photos/1656664/pexels-photo-1656664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100 d-block banner">
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="https://images.pexels.com/photos/1367242/pexels-photo-1367242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100 d-block banner">
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="w-100 d-block banner">
+
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+
+        </section>
+
+        <hr>
+
+        <div class="d-flex justify-content-between mx-2">
+            <div>
+                <input type="text" placeholder="Digite aqui o que procura">
+                <button class="bg-danger text-white">Buscar</button>
+            </div>
+            <div>
+                <div>
+                    <nav>
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item active">
+                                <a href="#" class="page-link">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link">4</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link">5</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link">6</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <section class="row justify-content-center gap-3">
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://superprix.vteximg.com.br/arquivos/ids/175207-600-600/Maca-Argentina--1-unidade-aprox.-200g-.png?v=636294203590200000"
+                    alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Maçã</h5>
+                    <p class="card-text">A Maçã mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://scfoods.fbitsstatic.net/img/p/pera-williams-unidade-70671/257173.jpg?w=800&h=800&v=no-change&qs=ignore"
+                    alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Pêra</h5>
+                    <p class="card-text">A Pêra mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://biocontrole.com.br/wp-content/uploads/2020/05/goiaba.png" alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Goiaba</h5>
+                    <p class="card-text">A Goiaba mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://frutasbrasilsul.com.br/wp-content/uploads/banana-terra.png" alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Banana</h5>
+                    <p class="card-text">A Banana mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://www.minicash.com.br/image/cache/catalog/img/produtos_2021/abacaxi-un-550x550.png"
+                    alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Abacaxi</h5>
+                    <p class="card-text">Abacaxi mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://teravirt.s3-accelerate.amazonaws.com/uploads/sites/95/2021/06/abacate-1.jpg"
+                    alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Abacate</h5>
+                    <p class="card-text">Abacate mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://vallefrutas.com.br/wp-content/uploads/coco-seco-1.png"
+                    alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Coco</h5>
+                    <p class="card-text">O Coco mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/kiwi[1]-1000x1000.jpg" alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Kiwi</h5>
+                    <p class="card-text">O Kiwi mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="https://www.proativaalimentos.com.br/image/cache/catalog/img_prod/Laranja_lima_600x600[1]-1000x1000.jpg" alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Laranja</h5>
+                    <p class="card-text">A Laranja mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+                <div class="card-header bg-transparent border-success align-items-center">R$ 2,50</div>
+                <div class="card-body text-success">
+                    <h5 class="card-title">Manga</h5>
+                    <p class="card-text">A Manga mais saborosa que você véra na sua vida</p>
+                </div>
+                <button class="card-footer bg-danger border-danger">Adicionar ao Carrinho</button>
+            </div>
+
+        </section>+
+
+    </main>
+
+    <footer class="p-4 bg-dark text-light text-center">Todos os direitos reservados</footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
